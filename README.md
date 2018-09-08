@@ -1,1 +1,1 @@
-# git-stydu
+# git-study
