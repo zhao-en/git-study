@@ -5,46 +5,44 @@
     <title>git 常用命令</title>
 </head>
 <body>
-    克隆项目
-    命令：git clone url
-    备注：直接在terminal 中进行，自动创建文件夹
+    <p><strong>克隆项目</strong></p>
+    <p>命令：git clone url</p>
+    <p>备注：直接在terminal 中进行，自动创建文件夹</p>
 
-    添加追踪
-    命令：git add filename
-    备注：无
+    <p><strong>添加追踪</strong></p>
+    <p>命令：git add filename</p>
+    <p>备注：无</p>
 
-    本地仓库提交
-    命令：git commit -m "messages"
-    备注：无
+    <p><strong>本地仓库提交</strong></p>
+    <p>命令：git commit -m "messages"</p>
+    <p>备注：无</p>
 
-    创建本地分支：
-    命令：git branch branchName
-    备注：无
+    <p><strong>创建本地分支</strong></p>
+    <p>命令：git branch branchName</p>
+    <p>备注：无</p>
 
-    合并本地分支：
-    命令：git merge branchName
-    备注：将branchName 合并到当前分支 ，出现 merging 冲突，进行 vim 修改解决冲突后，进行 git commit -m "message"
+    <p><strong>合并本地分支</strong></p>
+    <p>命令：git merge branchName</p>
+    <p>备注：将branchName 合并到当前分支 ，出现 merging 冲突，进行 vim 修改解决冲突后，进行 git commit -m "message"</p>
 
-    查看当前分支
-    命令：git branch （-a 附带远程分支）
-    备注：无
+    <p><strong>查看当前分支</strong></p>
+    <p>命令：git branch （-a 附带远程分支）</p>
+    <p>备注：无</p>
 
-    查看远程仓库名称
-    命令:git remote
-    备注：无
+    <p><strong>查看远程仓库名称</strong></p>
+    <p>命令:git remote</p>
+    <p>备注：无</p>
 
-    创建远程分支(提交)
-    命令：git push -u [remoteRepository] [localBranch]:[remoteBranch]
-    备注：当远程分支不存在的时候 会进行创建 ， remoteRepository一般为origin , 通过git remote 查看
+    <p><strong>创建远程分支(提交)</strong></p>
+    <p>命令：git push -u [remoteRepository] [localBranch]:[remoteBranch]</p>
+    <p>备注：当远程分支不存在的时候 会进行创建 ， remoteRepository一般为origin , 通过git remote 查看</p>
 
-    获取远程分支
-    git checkout -b [localNewBranch] [remoteRepository]/[remoteBranch]
-    备注： git checkout -b A origin/B 的执行结果是以名为origin的远程仓库（默认远程仓库）的B分支为来源，在本地仓库中创建分支A。
+    <p><strong>获取远程分支</strong></p>
+    <p>git checkout -b [localNewBranch] [remoteRepository]/[remoteBranch]</p>
+    <p>备注： git checkout -b A origin/B 的执行结果是以名为origin的远程仓库（默认远程仓库）的B分支为来源，在本地仓库中创建分支A。</p>
 
-    获取最新远程分支
-    命令：git [remoteRepository] [remoteBranch]
-    备注：多人协作同意分支进行的更改 ，   使用该明令时请务必保证当前所处本地分支是和远程分支对应的，使远程分支更新能正确拉回对应本地分支。
-
-
+    <p><strong>获取最新远程分支</strong></p>
+    <p>命令：git [remoteRepository] [remoteBranch]</p>
+    <p>备注：多人协作同意分支进行的更改 ，   使用该明令时请务必保证当前所处本地分支是和远程分支对应的，使远程分支更新能正确拉回对应本地分支。</p>
 </body>
 </html>
